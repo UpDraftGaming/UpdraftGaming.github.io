@@ -238,7 +238,7 @@
     <header>
         <div class="logo" onclick="closeGame()">UpDraft<span>Gaming</span></div>
         <div class="search-container">
-            <input type="text" class="search-bar" id="search" placeholder="Search games..." oninput="filterGames()">
+            <input type="text" class="search-bar" id="search" placeholder="Search curated games..." oninput="filterGames()">
         </div>
     </header>
     <main>
@@ -275,8 +275,14 @@
                 desc: "Real-time 3D voxel first-person shooter with crafting.",
                 url: "https://voxiom.io/",
                 emoji: "⚔️"
+            },
+            {
+                id: "kirka",
+                name: "Kirka.io",
+                desc: "Online voxel-styled competitive first-person shooter.",
+                url: "https://kirka.io/",
+                emoji: "🎯"
             }
-      
         ];
         const gameGrid = document.getElementById('gameGrid');
         const playerContainer = document.getElementById('playerContainer');
